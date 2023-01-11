@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  z-index: -1;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #144a6b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(97, 97, 255, 0.842);
+  border-radius: 10px;
+  background-size: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(125, 249, 253, 0.842);
+}
